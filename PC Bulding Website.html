@@ -1,0 +1,148 @@
+
+<?php
+$t = date("H");
+
+if ($t < "12") {
+  echo "Good Morning, Today is ".date("M-d-Y");
+}
+elseif ($t >12 and $t< 20){
+    echo " Goodafternoon, Today is ".date("M-d-Y");
+}
+else {
+  echo "Have a good night, today is " .date("M-d-Y");
+}
+
+setcookie('username' 'name');
+
+echo $_COOKIE['username'];
+
+
+?>
+
+
+
+<HTML>
+<style>
+/* This will change the backgound color */
+body
+{
+    background-color:#9CAFB7;
+}
+/* this section will change the table borders */
+table,th,tr
+{
+    background-color: 
+    padding: 15px;
+    border-style:solid;
+    border-radius: 5px; 
+    border-width: 2px;
+
+
+    background-color:white; 
+}
+
+/* this will be a button that user can input their name for the cookie to work. underhneath is the code that is responisble fot the border of the Main Title along with it font type*/
+
+h1
+{
+    background-color:white;
+    padding: 5px;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 5px;
+    
+}
+
+ol
+{
+    padding: 5px;
+    border-style: solid;
+    border-color: #000000ef;
+    border-width: 5px;
+    list-style-position: inside;
+}
+
+/*this section defines the Main title of the page. */
+</style>
+<TiTle> Pc Building </TiTle>
+<div class=" Title header"></div>
+<h1 style="font-family: american typewriter, serif;">How To Build Your Own Pc </h1>  
+
+
+
+
+
+<form class="name">
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
+
+<!--this paragraph is informing the reader about how to start picking out parts to build their own computer.-->
+<p>There are different starting points when it come to Pc building. This will start at picking the right parts for your build.If it is your first time or even if you just need a reminder, this site will help with learning what each component does.
+    the reason we start with the components is so you can figure out what is the main purpose of your PC. some people just want to have a PC to search the internet and might not need the same components as someone who is into streaming video games. 
+    finding the right parts will not only determine the cost, but it will also show what you computer is capable of doing. 
+
+</p>
+
+<img src="F:\WebSite\Images\Setup.jpg" alt="https://www.msi.com/Landing/mystic-light-rgb-gaming-pc/compatible-products" width="150" height="100">
+
+<br>
+<!-- this section whill be a table with computer component with links to more information.-->
+<table class="Info"> 
+    <tr>
+        <th> MotherBoard</th>
+        <th> <a href="https://www.hp.com/us-en/shop/tech-takes/what-does-a-motherboard-do">Learn More</a> </th>
+
+    </tr>
+   
+    <tr>
+        <th> CPU </th>
+        <th> <a href="https://www.intel.com/content/www/us/en/business/small-business/resources/ram-vs-processor.html#:~:text=of%20the%20Processor-,The%20processor%2C%20also%20known%20as%20the%20CPU%2C%20provides%20the%20instructions,computer%20think%20and%20work%20faster.">Learn More</a> </th>
+   
+    </tr>
+
+    <tr>
+        <th>GPU</th>
+        <th> <a href="https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html#:~:text=Graphics%20processing%20unit%2C%20a%20specialized,video%20editing%2C%20and%20gaming%20applications.">Learn More</a> </th>
+    </tr>
+
+    <tr>
+        <th> RAM </th>
+        <th> <a href="https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do">Learn More</a> </th>
+    </tr>
+    <tr>
+        <th>Power Supply</th>
+        <th> <a href="https://www.intel.com/content/www/us/en/gaming/resources/power-supply.html">Learn More</a> </th>
+    </tr>
+
+    <tr>
+        <th>Storage</th>
+        <th> <a href="https://www.techopedia.com/definition/1115/storage#:~:text=Storage%20is%20a%20mechanism%20that,documents%2C%20pictures%20and%20raw%20data.">Learn More</a> </th>
+    </tr>
+
+
+</table>
+<!--this paragraph will have information about any concerns user might have when assembling and give out tips-->
+<p>After you recieved all for components for your PC, all that left is the assembly. it may seem tricky at first but it is a lot simpler then you think. Some important notes to remember is first you dont need to push down on the CPU.<br>
+Once you lower the CPU into its socket it will fall in on it own. if you want to check that it in then give is a light wiggle. if nothing moves than your CPU is in its socket. On your Ram stick there will be a gap<br>
+line this gap with the indent on your motherboard to avoid bending any pins. if you are worried about static shock then you can purchase an anti-static pad with braclet to remove any excess charge you may have.</p>
+<br>
+
+<!--this list will explain step on assembling their pc-->
+<ol>
+    <li>take out your motherboard and locate the CPU socket and find the level next to it and unhook the lever</li>
+    <li>Grab your CPU and Place it inside its socekt,then lower the lever back to secure you CPU</li>
+    <li>Apply your CPU cooler(either stock or purchased) then connect cable to motherbord pins saying "CPU Fan"</li>
+    <li>Find your RAM sticks and insert them into their socket</li>
+    <li>Now you can place your motherboard inside your case (ensure that stand-offs are in correct place for the size of your motherboard)</li>
+
+</ol>
+
+</HTML>
